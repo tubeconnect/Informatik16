@@ -34,27 +34,13 @@ def qualify():
     antwortb = frageandanswer[2]
     antwortc = frageandanswer[3]
     antwortd = frageandanswer[4]
-<<<<<<< HEAD
     print("Die erste Frage lautet:")
-=======
-    rightanswer = frageandanswer[5]
-    print("Die erste Frage lautet")
->>>>>>> 65496349204ab1ee63b59e0088ec5c4ce350c82e
     print(frage)
     print(antworta)
     print(antwortb)
     print(antwortc)
     print(antwortd)
-<<<<<<< HEAD
-=======
-    if(input("Tippen sie A, B, C, oder D\n") == rightanswer.upper()):
-        print("YALLAH")
->>>>>>> 65496349204ab1ee63b59e0088ec5c4ce350c82e
 def maingame():
     print("Frage " + questionnumbber)
 verify()
-if(name.upper() == "UWE"):
-        print("Entschuldigung mein Psychater hat gesagt ich darf nicht mit ihnen reden. Bitte verlassen die den Raum - Einbruchsgefahr!!!")
-else:
-    print("Herzlichen Glückwunsch! Sie sind dabei, in wenigen Sekunden starten die ersten Qualifikationsfragen")
-    qualify()
+qualify()
