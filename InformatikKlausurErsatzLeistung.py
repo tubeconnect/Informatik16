@@ -22,10 +22,6 @@ def verify():
     time.sleep(0.2)
     print("Alles klar. Haben Sie einen kleinen Augenblick Geduld, die Teilnehmer werden ausgelost...")
     time.sleep(random.randint(0,3))
-<<<<<<< HEAD
-    print("Herzlichen Glückwunsch! Sie sind dabei, in wenigen Sekunden starten die ersten Qualifikationsfragen.")
-=======
->>>>>>> 65496349204ab1ee63b59e0088ec5c4ce350c82e
 def qualify():
     frageandanswer = qualifragen[0]
     frage = frageandanswer[0]
@@ -34,22 +30,15 @@ def qualify():
     antwortb = frageandanswer[2]
     antwortc = frageandanswer[3]
     antwortd = frageandanswer[4]
-<<<<<<< HEAD
-    print("Die erste Frage lautet:")
-=======
     rightanswer = frageandanswer[5]
     print("Die erste Frage lautet")
->>>>>>> 65496349204ab1ee63b59e0088ec5c4ce350c82e
     print(frage)
     print(antworta)
     print(antwortb)
     print(antwortc)
     print(antwortd)
-<<<<<<< HEAD
-=======
     if(input("Tippen sie A, B, C, oder D\n") == rightanswer.upper()):
         print("YALLAH")
->>>>>>> 65496349204ab1ee63b59e0088ec5c4ce350c82e
 def maingame():
     print("Frage " + questionnumbber)
 verify()
