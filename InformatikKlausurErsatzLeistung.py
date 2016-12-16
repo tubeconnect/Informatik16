@@ -7,7 +7,7 @@ import math
 
 name = None
 
-qualifragen = ["Wann wurde die Berliner Mauer niedergerissen","1989","1979","1999","1972","A"],["Wann wurde die Berliner Mauer niedergerissen","1989","1979","1999","1972","A"]
+qualifragen = ["Wann wurde die Hamburger Mauer niedergerissen","1989","1979","1999","1972","A"],["Wann wurde die Berliner Mauer niedergerissen","1989","1979","1999","1972","A"]
 
 def verify():
     global name
